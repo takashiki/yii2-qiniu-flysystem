@@ -1,29 +1,22 @@
-# yii2-cos-flysystem
+# yii2-qiniu-flysystem
 
-Yii2 tencent-cos(v3/v4) flysystem 
+Yii2 qiniu flysystem 
 
 ## Install
 
 ```
-composer require takashiki/yii2-cos-flysystem
+composer require takashiki/yii2-qiniu-flysystem
 ```
 
 ## Usage
 
 ```php
-'cosFs' => [
-    'class' => \takashiki\yii2\flysystem\CosFilesystem::class,
-    'app_id' => 'xxx',
-    'secret_id' => 'xxx',
-    'secret_key' => 'xxx',
+'qiniuFs' => [
+    'class' => \takashiki\yii2\flysystem\QiniuFilesystem::class,
+    'accesskey' => 'xxx',
+    'secretKey' => 'xxx',
     'bucket' => 'xxx',
-    'domain' => 'xxx.file.myqcloud.com',
-    
-    // not necessarily bellow 
-    'version' => 'v4',
-    'protocol' => 'http',
-    'region' => 'sh',
-    'timeout' => 60,
+    'domain' => 'xxx',
 ],
 ```
 
