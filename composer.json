@@ -1,8 +1,8 @@
 {
-    "name": "takashiki/yii2-cos-flysystem",
-    "keywords": ["yii", "cos", "flysystem"],
-    "description": "Yii2 Cos Flysystem",
-    "homepage": "https://github.com/takashiki/yii2-cos-flysystem",
+    "name": "takashiki/yii2-qiniu-flysystem",
+    "keywords": ["yii", "qiniu", "flysystem"],
+    "description": "Yii2 Qiniu Flysystem",
+    "homepage": "https://github.com/takashiki/yii2-qiniu-flysystem",
     "license": "MIT",
     "minimum-stability":"stable",
     "authors": [
